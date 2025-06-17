@@ -41,6 +41,7 @@ class NumberOfDistinctIslands {
 
 }
 
+//Second Solution
 // class Solution {
 
 //     int direction[][] = {{0,1},{0,-1},{1,0},{-1,0}};
