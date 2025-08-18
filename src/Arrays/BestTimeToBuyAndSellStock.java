@@ -11,4 +11,13 @@ public class BestTimeToBuyAndSellStock {
         }
         return maxDiff;
     }
+    //Best time to buy and sell stock 2
+    public int maxProfit2(int[] prices) {
+        int profit = 0;
+        for(int i = 1; i<prices.length;i++){
+            if(prices[i] > prices[i-1])
+                profit += prices[i] - prices[i-1];
+        }
+        return profit;
+    }
 }
